@@ -1,0 +1,37 @@
+body{
+background-color: #f2f2f2;
+font-family: sans-serif;
+}
+.nav{
+    /* establezco el tamaño minimo */
+    min-height: 80px;
+    /* elimina el contenido sobrante */
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.logo h2,p {
+    font-size: 16px;
+    
+}
+.logo .icono{
+color: #bfbfbf;
+
+}
+    .logo .icono, p {color: #7777;}
+    
+    .logo .icono, svg{
+    width: 20px;    
+    height: 20px;
+
+}
+.menu{
+    color: #fff;
+}
+.menu .c1{background: #3da5e2;}
+.menu .c2{background: #005385;}
+.menu .c3{background: #003855;}
+
+.menu .c1:hover{background: #1ba0ef;}
+.menu .c2:hover{background: #00426a;}
+.menu .c3:hover{background: #002d44;}
